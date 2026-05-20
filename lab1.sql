@@ -198,3 +198,7 @@ JOIN company.employees AS e
     ON et.EmployeeId = e.Id
 GROUP BY r.RegionDescription;
 GO
+
+
+
+--13 
