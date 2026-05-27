@@ -324,3 +324,7 @@ END;
 GO
 
 EXEC MoveBook '9780590353427', 1, 2, 2;
+
+SELECT *
+FROM inventory_balance
+WHERE isbn13 = '9780590353427';
